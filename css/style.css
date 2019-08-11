@@ -21,6 +21,10 @@ section {
 	float: left;
 }
 
+.about-me h3 {
+	padding-top: 30px;
+}
+
 h3 {
 	margin-bottom: 20px;
 	text-transform: uppercase;

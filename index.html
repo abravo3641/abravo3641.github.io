@@ -19,7 +19,7 @@
 
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-dark">
+			<nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-dark fixed-top">
 				<span class="navbar-brand">Anthony Bravo</span>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -27,16 +27,16 @@
 				<div class="collapse navbar-collapse" id="navbarText">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="#">About me <span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="#about-me-link">About me <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Projects</a>
+							<a class="nav-link" href="#projects-link">Projects</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Interest</a>
+							<a class="nav-link" href="#interest-link">Interest</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Contact me</a>
+							<a class="nav-link" href="#contact-me-link">Contact me</a>
 						</li>
 					</ul>
 				</div>
@@ -45,7 +45,7 @@
 
 
 		<main>
-			<section class="about-me">
+			<section class="about-me" id="about-me-link">
 				<h3 class="text-center">About me</h3>
 				<img src="./images/profilePic.jpg" class="rounded-circle img-responsive" alt="Bird">
 				<p>
@@ -53,98 +53,110 @@
 				</p>
 			</section>
 
-			<section class="projects">
+			<section class="projects" id="projects-link">
 				<div class="album py-5 bg-light">
 					<h3 class="text-center">Projects</h3>
 					<div class="container">
 						<div class="row">
 							<div class="col-md-4">
-								<h5 class="text-center">Project Title</h5>
+								<h5 class="text-center">Olacare</h5>
 								<div class="card mb-4 box-shadow">
-									<img class="card-img-top" src="./images/profilePic.jpg" alt="Card image cap">
+									<img class="card-img-top" src="./images/Olacare.png" alt="Card image cap">
 									<div class="card-body">
 										<p class="card-text">Project Description</p>
 										<div class="d-flex justify-content-between align-items-center">
 											<div class="btn-group">
-												<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+												<a href="https://github.com/abravo3641/Olacare" target="_blank">
+													<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+												</a>
 											</div>
-											<small class="text-muted">date</small>
+											<small class="text-muted">May 2019</small>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-4">
-								<h5 class="text-center">Project Title</h5>
+								<h5 class="text-center">Sport Connect</h5>
 								<div class="card mb-4 box-shadow">
-									<img class="card-img-top" src="./images/profilePic.jpg" alt="Card image cap">
+									<img class="card-img-top" src="./images/sportConnect.png" alt="Card image cap">
 									<div class="card-body">
 										<p class="card-text">Project Description</p>
 										<div class="d-flex justify-content-between align-items-center">
 											<div class="btn-group">
-												<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+												<a href="https://github.com/abravo3641/SportsConnect" target="_blank">
+													<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+												</a>
 											</div>
-											<small class="text-muted">date</small>
+											<small class="text-muted">Feb 2019</small>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-4">
-								<h5 class="text-center">Project Title</h5>
+								<h5 class="text-center">City Direct</h5>
 								<div class="card mb-4 box-shadow">
-									<img class="card-img-top" src="./images/profilePic.jpg" alt="Card image cap">
+									<img class="card-img-top" src="./images/cityDirect.png" alt="Card image cap">
 									<div class="card-body">
 										<p class="card-text">Project Description</p>
 										<div class="d-flex justify-content-between align-items-center">
 											<div class="btn-group">
-												<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+												<a href="https://github.com/abravo3641/citydirect" target="_blank">
+													<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+												</a>
 											</div>
-											<small class="text-muted">date</small>
+											<small class="text-muted">Dec 2018</small>
 										</div>
 									</div>
 								</div>
 							</div>
 
 							<div class="col-md-4">
-								<h5 class="text-center">Project Title</h5>
+								<h5 class="text-center">Text Editor</h5>
 								<div class="card mb-4 box-shadow">
-									<img class="card-img-top" src="./images/profilePic.jpg" alt="Card image cap">
+									<img class="card-img-top" src="./images/textEditor.png" alt="Card image cap">
 									<div class="card-body">
 										<p class="card-text">Project Description</p>
 										<div class="d-flex justify-content-between align-items-center">
 											<div class="btn-group">
-												<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+												<a href="https://github.com/abravo3641/Text-Editor" target="_blank">
+													<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+												</a>
 											</div>
-											<small class="text-muted">date</small>
+											<small class="text-muted">Dec 2018</small>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-4">
-								<h5 class="text-center">Project Title</h5>
+								<h5 class="text-center">Minesweeper</h5>
 								<div class="card mb-4 box-shadow">
-									<img class="card-img-top" src="./images/profilePic.jpg" alt="Card image cap">
+									<img class="card-img-top" src="./images/mineswepper.png" alt="Card image cap">
 									<div class="card-body">
 										<p class="card-text">Project Description</p>
 										<div class="d-flex justify-content-between align-items-center">
 											<div class="btn-group">
-												<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+												<a href="https://github.com/abravo3641/Minesweeper" target="_blank">
+													<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+												</a>
 											</div>
-											<small class="text-muted">date</small>
+											<small class="text-muted">Oct 2018</small>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-4">
-								<h5 class="text-center">Project Title</h5>
+								<h5 class="text-center">College Direct</h5>
 								<div class="card mb-4 box-shadow">
-									<img class="card-img-top" src="./images/profilePic.jpg" alt="Card image cap">
+									<img class="card-img-top" src="./images/collegeDirect.jpg" alt="Card image cap">
 									<div class="card-body">
 										<p class="card-text">Project Description</p>
 										<div class="d-flex justify-content-between align-items-center">
 											<div class="btn-group">
-												<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+												<a href="https://github.com/abravo3641/College-Direct" target="_blank">
+													<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+												</a>
 											</div>
-											<small class="text-muted">date</small>
+											<small class="text-muted">Nov 2017</small>
 										</div>
 									</div>
 								</div>
@@ -157,28 +169,28 @@
 
 			</section>
 
-			<section class="interest">
+			<section class="interest" id="interest-link">
 				<h3 class="text-center">Interests</h3>
 
 				<div class="container">
 				  <div class="row">
 				    <div class="col-sm">
-				    	<img src="./images/profilePic.jpg" class="rounded-circle img-responsive" alt="Bird">
-				    	<h5 class="text-center">Interest#1</h5>
+				    	<img src="./images/drone.jpg" class="rounded-circle img-responsive" alt="Bird">
+				    	<h5 class="text-center">Drones</h5>
 				      	<p>
 				      		Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source
 				      	</p>
 				    </div>
 				    <div class="col-sm">
-				      	<img src="./images/profilePic.jpg" class="rounded-circle img-responsive" alt="Bird">
-				      	<h5 class="text-center">Interest#2</h5>
+				      	<img src="./images/volleyball.png" class="rounded-circle img-responsive" alt="Bird">
+				      	<h5 class="text-center">Volleyball</h5>
 				      	<p>
 				      		Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source
 				      	</p>
 				    </div>
 				    <div class="col-sm">
-				    	<img src="./images/profilePic.jpg" class="rounded-circle img-responsive" alt="Bird">
-				    	<h5 class="text-center">Interest#3</h5>
+				    	<img src="./images/hiking.png" class="rounded-circle img-responsive" alt="Bird">
+				    	<h5 class="text-center">Hiking</h5>
 				      	<p>
 				      		Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source
 				      	</p>
@@ -189,7 +201,7 @@
 
 		</main>
 
-		<footer>
+		<footer id="contact-me-link">
 			<h3 class="text-center">Contact Me</h3>
 			<div class="container">
 				 <div class="row"> 
@@ -203,7 +215,7 @@
 						<a href="https://github.com/abravo3641" target="_blank" class="fa fa-github"></a>
 					</div>
 					<div class="col-sm text-center">
-						<a href="#" target="_blank" class="fa fa-facebook" ></a>
+						<a href="https://www.facebook.com/anthony.bravo.98" target="_blank" class="fa fa-facebook" ></a>
 					</div>
 				</div>
 			</div>
